@@ -101,7 +101,7 @@ async function getPrice(){
     }
 
     //api key headers
-    const headers = {"0x-api-key": "60c93077-1111-420a-91cf-26bedaccdb79"};
+    const headers = {"0x-api-key": "<0x-api-key>"};
     
     //fetch the swap price
     const response = await fetch(`https://api.0x.org/swap/v1/price?${qs.stringify(params)}`, { headers:headers });
